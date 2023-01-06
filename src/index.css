@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@layer base {
+  html {
+    font-family: Proxima Nova, sans-serif;
+  }
+}
+body {
+    background-color: #E6E9F2;
+    padding: 1.8rem 1rem 3rem;
+    
+}
+@media (max-width: 639px){
+    body {
+        padding:  0.5rem;
+        
+    
+}
 }
