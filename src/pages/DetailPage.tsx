@@ -136,42 +136,42 @@ export function DetailPage() {
                         Employment type
                     </p>
                     <input
-                        className=" border border-[#A1B1DB] py-3 px-10 bg-[#57699E]/30 rounded-lg divide-black  w-[14rem] text-base text-[#55699E] font-bold cursor-pointer hover:bg-[#008332]/30 hover:border-[#008332]/10 xl:max-w-[110px] xl:px-1 m:max-w-[120px]"
+                        className=" border border-[#A1B1DB] py-3 px-10 bg-[#57699E]/30 rounded-lg divide-black  w-[14rem] text-base text-[#55699E] font-bold cursor-pointer hover:bg-[#008332]/30 hover:border-[#008332]/10 xl:max-w-[110px] xl:px-1 m:max-w-[120px] s:max-w-[90%] s:mb-4 s:mx-auto"
                         type="submit"
                         value="Full time"
                     />
                     <input
-                        className=" border border-[#A1B1DB] py-3 px-10 mx-2 bg-[#55699E]/30 rounded-lg divide-black w-[14rem] text-base text-[#55699E] font-bold cursor-pointer hover:bg-[#008332]/30 hover:border-[#008332]/10 xl:max-w-[110px] xl:px-1 m:max-w-[120px]"
+                        className=" border border-[#A1B1DB] py-3 px-10 mx-2 bg-[#55699E]/30 rounded-lg divide-black w-[14rem] text-base text-[#55699E] font-bold cursor-pointer hover:bg-[#008332]/30 hover:border-[#008332]/10 xl:max-w-[110px] xl:px-1 m:max-w-[120px] s:max-w-[90%] s:mb-4 s:mx-auto"
                         type="submit"
                         value="Part time"
                     />
                     <input
-                        className="border border-[#A1B1DB] py-3 px-10 bg-[#55699E]/30 rounded-lg divide-black w-[14rem] mb-[1.4rem] text-base text-[#55699E] font-bold cursor-pointer hover:bg-[#008332]/30 hover:border-[#008332]/10 xl:max-w-[110px] xl:px-1 m:max-w-[120px]"
+                        className="border border-[#A1B1DB] py-3 px-10 bg-[#55699E]/30 rounded-lg divide-black w-[14rem] mb-[1.4rem] text-base text-[#55699E] font-bold cursor-pointer hover:bg-[#008332]/30 hover:border-[#008332]/10 xl:max-w-[110px] xl:px-1 m:max-w-[120px] s:max-w-[90%] s:mb-4 s:mx-auto"
                         type="submit"
                         value="Temporary"
                     />
                     <p className="text-[#3A4562] text-lg mb-2">Benefits</p>
                     <input
-                        className="border border-[#FFCF00] py-3 px-10 bg-[#FFCF00]/20 rounded-lg divide-black  w-[14rem] text-base text-[#988B49] font-bold cursor-pointer xl:w-[12rem] xl:px-1 m:w-[11rem]"
+                        className="border border-[#FFCF00] py-3 px-10 bg-[#FFCF00]/20 rounded-lg divide-black  w-[14rem] text-base text-[#988B49] font-bold cursor-pointer xl:w-[12rem] xl:px-1 m:w-[11rem] s:max-w-[90%] s:mb-4 s:mx-auto"
                         type="submit"
                         value="Flexible shedule"
                     />
                     <input
-                        className="border border-[#FFCF00] py-3 px-10 mx-2 bg-[#FFCF00]/20 rounded-lg divide-black w-[14rem] text-base text-[#988B49] font-bold cursor-pointer mb-[5.4rem] xl:w-[12rem] xl:px-1 m:w-[11rem]"
+                        className="border border-[#FFCF00] py-3 px-10 mx-2 bg-[#FFCF00]/20 rounded-lg divide-black w-[14rem] text-base text-[#988B49] font-bold cursor-pointer mb-[5.4rem] xl:w-[12rem] xl:px-1 m:w-[11rem] s:max-w-[90%] s:mb-4 s:mx-auto"
                         type="submit"
                         value="Relocation assistance"
                     />
                     <h2 className="text-[#3A4562] text-3xl font-bold border-b-2 pb-2 mb-4 m:text-[1.7rem]">
                         Attached images
                     </h2>
-                    <div className="flex pb-[5.6rem] lg:pb-2">
+                    <div className="flex flex-wrap gap-10 justify-center pb-[5.6rem] lg:pb-2 s:column s:my-0 s:mx-auto s:w-[90%] ">
                         <img
-                            className="rounded-lg m:max-w-[170px]"
+                            className="rounded-lg m:max-w-[170px] s:max-w-[100%]"
                             src="/images/image1.png"
                             alt="foto"
                         />
                         <img
-                            className="rounded-lg mx-5 m:max-w-[170px]"
+                            className="rounded-lg mx-5 m:max-w-[170px]  s:max-w-[100%]"
                             src="/images/image2.png"
                             alt="foto"
                         />
@@ -183,15 +183,15 @@ export function DetailPage() {
                     </div>
                 </div>
                 <div className="lg:mx-auto lg:my-2">
-                    <aside className="overflow-hidden relative max-w-[402px] h-[27rem] bg-[#2A3047] text-white ml-[1rem] rounded-lg  before:contents-[''] before:w-[17rem] before:h-[17rem] before:bg-[#202336] before:rounded-full before:absolute before:left-[-90px] before:top-[-10px]">
-                        <div className="px-[3.9rem] pt-8 pb-3 relative">
+                    <aside className="overflow-hidden relative max-w-[402px] h-[27rem] bg-[#2A3047] text-white ml-[1rem] rounded-lg  before:contents-[''] before:max-w-[17rem] before:h-[17rem] before:bg-[#202336] before:rounded-full before:absolute before:left-[-90px] before:top-[-10px]">
+                        <div className="px-[3.9rem] pt-8 pb-3 relative s:px-[1.9rem] s:pb-8 s:text-center">
                             <p className="pb-3  text-xl font-bold">
                                 Department name.
                                 <br />
                                 University Hospital Giessen.
                             </p>
                             <a href="/">
-                                <span className="absolute">
+                                <span className="absolute s:left-8">
                                     <PointContacts />
                                 </span>
                                 <p className="ml-4">
