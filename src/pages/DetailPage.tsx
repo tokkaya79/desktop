@@ -164,7 +164,7 @@ export function DetailPage() {
                     <h2 className="text-[#3A4562] text-3xl font-bold border-b-2 pb-2 mb-4 m:text-[1.7rem]">
                         Attached images
                     </h2>
-                    <div className="flex flex-wrap gap-10 justify-center pb-[5.6rem] lg:pb-2 s:column s:my-0 s:mx-auto s:w-[90%] ">
+                    <div className="flex s:flex-wrap gap-10 justify-center pb-[5.6rem] lg:pb-2 s:column s:my-0 s:mx-auto s:w-[90%] ">
                         <img
                             className="rounded-lg m:max-w-[170px] s:max-w-[100%]"
                             src="/images/image1.png"
